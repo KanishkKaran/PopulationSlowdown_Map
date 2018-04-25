@@ -65,7 +65,7 @@
   }}}).bindTooltip(function (layer) {
       return layer.feature.properties.NAME_1.toString()})
 
-omnivore.geojson('States_Birthsv.Deaths.geojson', null, customLayer).addTo(map);
+omnivore.topojson('States_Birthsv.Deaths.json', null, customLayer).addTo(map);
 
 legend.addTo(map);
 </script>
